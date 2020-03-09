@@ -2,13 +2,21 @@
 
 buildscript {
     repositories {
+        /*
+        Android Studio projects contain a top-level project Gradle build file that allows you to add the configuration options common to ALL
+        application modules in the project. Each application module also has its own build. gradle file for build settings specific to that module.
+        Repositories:
+        The google() repository is a shortcut to Google's maven repository.
+        jcenter() is a superset of Maven Central, served by Bintray. It contains everything in Maven Central,
+        as well as projects that are published directly to JCenter. It is the default repository in Android Studio and Groovy Grape.
+         */
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
-        
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -18,7 +26,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
