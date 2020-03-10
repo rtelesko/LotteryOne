@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
     Build options in Android Studio: https://developer.android.com/studio/run
     Git and Github integration in Android Studio: https://www.youtube.com/watch?v=bcduIvadmPo
     Debugging with Android Studio: https://www.youtube.com/watch?v=nBaL78HC0ls
-    Essentials:
+    Where is R.java (Project view)? app/build/generated/not_namespaced_r_class_sources/debug/r/com/example/lotteryone/R.java
+    Essentials for Debugging:
     Step Over command: This command lets the application execute the next action. If the action involves a call to an operation, it does not step into its implementation (it steps over it instead).
     Step Into command: This command lets the application execute the next action. If the action involves a call to an operation, it steps into its implementation and breaks the execution on the first action of that implementation.
     Step Out command: This command lets the application execute until the currently executed operation implementation is returned.
